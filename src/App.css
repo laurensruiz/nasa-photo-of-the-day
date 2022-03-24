@@ -37,22 +37,6 @@
   }
 }
 
-img{
-  max-width: 60%;
-  border-radius: 50%;
-}
 
-.explanation {
-  width:30%;
-  padding: 1%;
-  text-align: left;
-}
-
-
-.photo-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 
