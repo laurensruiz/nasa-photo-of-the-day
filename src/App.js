@@ -5,10 +5,7 @@ import NasaPhoto from "./components/NasaPhoto";
 import NasaHeader from "./components/NasaHeader";
 
 //let dates =['']
-let endpoints= [
-  'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-01-01',
-  'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2013-01-01',
-]
+let endpoints= ['https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-01-01']
 
 function App() {
   const [data, setData] = useState([]) 
@@ -27,7 +24,7 @@ function App() {
 /*
   return (
     <div className="App">
-    {data && <NasaHeader info={data}/>} {/*No need to put 'data && if u put empty array in useState but if type useState() you have to state data first *///}
+    {data && <NasaHeader info={data}/>} {/*No need to put 'data && if u put empty array in useState but if type useState() you have to state data first */}
     /*{data && <NasaPhoto info={data}/>} {/* make sure to console log data here and not in useeffect to see it*///}
     /*</div>
   );

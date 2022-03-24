@@ -17,7 +17,6 @@ const StyledHeader = styled.div`
     p {
         text-align: top;
         margin: 0;
-        
     }
 `
 
